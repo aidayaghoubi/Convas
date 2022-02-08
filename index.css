@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+#canvas{
+    width: 500px;
+    border: 1px solid #111;
+    height: 500PX;
+}
+
+.toolbox{
+    width: 500px;
+    background-color:rebeccapurple;
+    padding:  1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toolbox button{
+    font-size:  2rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: none;
+width: 50px;
+}
+
+#clear{
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+}
+
+span{
+    font-size:  2rem;
+    padding: 0.5rem;
+    background-color: #fff;
+    border: none;
+width: 50px;
+}
+
+#colorPick{
+    width: 50px;
+    height: 50px;
+}
